@@ -141,6 +141,7 @@
 
 .navbar__mobile-link:hover {
     color: var(--color-text-primary);
+<<<<<<< HEAD
 }
 
 .navbar__theme-toggle {
@@ -157,3 +158,6 @@
   background: var(--color-bg-tertiary);
   transform: rotate(15deg);
 }
+=======
+}
+>>>>>>> 275d8dbc3da36f9e10a517598cb5408dcb6e3816

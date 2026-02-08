@@ -305,6 +305,7 @@ h4 { font-size: var(--font-size-xl); }
 .gap-sm { gap: var(--spacing-sm); }
 .gap-md { gap: var(--spacing-md); }
 .gap-lg { gap: var(--spacing-lg); }
+<<<<<<< HEAD
 
 /* Light Theme */
 [data-theme="light"] {
@@ -327,3 +328,5 @@ h4 { font-size: var(--font-size-xl); }
   );
 }
 
+=======
+>>>>>>> 275d8dbc3da36f9e10a517598cb5408dcb6e3816
