@@ -1,0 +1,77 @@
+.careers {
+    background: var(--color-bg-primary);
+}
+
+.careers__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-3xl);
+}
+
+@media (min-width: 768px) {
+    .careers__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.careers__card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.careers__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.careers__department {
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.careers__title {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+}
+
+.careers__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+}
+
+.careers__meta-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.careers__apply {
+    margin-top: auto;
+    width: fit-content;
+}
+
+.careers__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-2xl);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-xl);
+    text-align: center;
+}
+
+.careers__cta-text {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+}
