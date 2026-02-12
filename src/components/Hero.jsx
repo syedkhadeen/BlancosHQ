@@ -1,5 +1,8 @@
 import { ArrowRight, ChevronDown } from 'lucide-react';
 import './Hero.css';
+import CountUp from './CountUp';
+
+import Typewriter from './Typewriter';
 
 const Hero = () => {
     const handleScroll = (href) => {
@@ -20,7 +23,18 @@ const Hero = () => {
 
                 <h1 className="hero__title animate-fadeInUp" style={{ animationDelay: '0.1s' }}>
                     Building Future-Ready<br />
-                    <span className="hero__title-accent">Digital Solutions</span>
+                    <span className="hero__title-accent">
+                        <Typewriter
+                            phrases={[
+                                "Web Solutions",
+                                "App Solutions",
+                                "Data Science",
+                                "Artificial Intelligence",
+                                "DevOps",
+                                "Digital Solutions"
+                            ]}
+                        />
+                    </span>
                 </h1>
 
                 <p className="hero__subtitle animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
@@ -44,12 +58,16 @@ const Hero = () => {
 
                 <div className="hero__stats animate-fadeInUp" style={{ animationDelay: '0.5s' }}>
                     <div className="hero__stat">
-                        <span className="hero__stat-value">50+</span>
+                        <span className="hero__stat-value">
+                            <CountUp end={6} suffix="+" />
+                        </span>
                         <span className="hero__stat-label">Projects Delivered</span>
                     </div>
                     <div className="hero__stat-divider"></div>
                     <div className="hero__stat">
-                        <span className="hero__stat-value">98%</span>
+                        <span className="hero__stat-value">
+                            <CountUp end={77} suffix="%" />
+                        </span>
                         <span className="hero__stat-label">Client Satisfaction</span>
                     </div>
                     <div className="hero__stat-divider"></div>

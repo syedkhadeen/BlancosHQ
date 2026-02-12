@@ -1,4 +1,5 @@
 import { ExternalLink, Github } from 'lucide-react';
+import TiltedCard from './TiltedCard';
 import './Projects.css';
 
 const Projects = () => {
@@ -67,7 +68,7 @@ const Projects = () => {
 
                 <div className="projects__grid">
                     {projects.map((project, index) => (
-                        <div
+                        <TiltedCard
                             key={project.title}
                             className="projects__card"
                             style={{ animationDelay: `${index * 0.1}s` }}
@@ -96,7 +97,7 @@ const Projects = () => {
                                     ))}
                                 </div>
                             </div>
-                        </div>
+                        </TiltedCard>
                     ))}
                 </div>
             </div>
