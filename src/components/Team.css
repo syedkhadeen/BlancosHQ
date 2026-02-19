@@ -413,6 +413,7 @@
     border-radius: var(--radius-full);
 }
 
+<<<<<<< HEAD
 .team__contact {
     margin-bottom: var(--spacing-lg);
     display: flex;
@@ -444,6 +445,9 @@
 .team__contact-link:hover {
     color: var(--color-accent);
 }
+=======
+/* Responsive */
+>>>>>>> bd273d20a7e66faad452e0cebe6748fcecbbe672
 @media (max-width: 768px) {
     .team__modal {
         max-height: 95vh;

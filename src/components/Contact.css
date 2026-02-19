@@ -165,6 +165,7 @@
     .contact__submit {
         width: fit-content;
     }
+<<<<<<< HEAD
 }
 
 .contact__team-section {
@@ -206,4 +207,6 @@
 .contact__team-list a:hover {
     color: var(--color-accent-hover);
     text-decoration: underline;
+=======
+>>>>>>> bd273d20a7e66faad452e0cebe6748fcecbbe672
 }
